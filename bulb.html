@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .bulb{
+    width: 100px; 
+     height: 100px; 
+     background: yellow;
+     border-radius: 40px;
+     margin-left: 12px;
+    }
+    .bulbcontainer{
+     width: 100px; 
+     height: 100px; 
+    }
+  </style>
+  <body>
+    <div>
+      <nav
+        class="navbar"
+        style="
+          display: flex;
+          align-items: center;
+          font-size: 25px;
+          color: rgb(56, 53, 49);
+          list-style: none;
+          padding: 20px;
+        "
+      >
+        <li style="margin: 10px">Home</li>
+        <li style="margin: 10px">Contact</li>
+        <li style="margin: 10px">Links</li>
+        <li style="margin: 10px">About</li>
+      </nav>
+    </div>
+    <!-- <table>
+        <thead>Table</thead>
+            <tr>Hello1</tr>
+            <tr>Hello2</tr>
+            <tr>Hello3</tr>
+            <tr>Hello4</tr>
+        
+    </table> -->
+
+    <div style="padding: 15px; margin-top: 10px">
+      <h1>Diffrent alerts</h1>
+      <button
+        onclick="alert('I am first button')"
+        style="
+          margin: 15px;
+          font-size: 18px;
+          border: none;
+          width: 100px;
+          height: 40px;
+          background-color: rgb(86, 180, 180);
+          border-radius: 15px;
+        "
+      >
+        click 1
+      </button>
+      <button
+        onclick="alert('I am second button')"
+        style="
+          margin: 15px;
+          font-size: 18px;
+          border: none;
+          width: 100px;
+          height: 40px;
+          background-color: rgb(86, 180, 180);
+          border-radius: 15px;
+        "
+      >
+        click 2
+      </button>
+      <button
+        onclick="alert('I am third button')"
+        style="
+          margin: 15px;
+          font-size: 18px;
+          border: none;
+          width: 100px;
+          height: 40px;
+          background-color: rgb(86, 180, 180);
+          border-radius: 15px;
+        "
+      >
+        click 3
+      </button>
+    </div>
+
+    <div style="padding: 15px">
+      <h1>Bookmarks</h1>
+      <a>
+        <button
+          style="
+            margin: 15px;
+            font-size: 18px;
+            border: none;
+            width: 100px;
+            height: 40px;
+            background-color: rgb(86, 180, 180);
+            border-radius: 15px;
+          "
+          id="google"
+        >
+          Google
+        </button></a
+      >
+      <a>
+        <button
+          style="
+            margin: 15px;
+            font-size: 18px;
+            border: none;
+            width: 100px;
+            height: 40px;
+            background-color: rgb(86, 180, 180);
+            border-radius: 15px;
+          "
+          id="facebook"
+        >
+          facebook
+        </button></a
+      >
+      <a>
+        <button
+          style="
+            margin: 15px;
+            font-size: 18px;
+            border: none;
+            width: 100px;
+            height: 40px;
+            background-color: rgb(86, 180, 180);
+            border-radius: 15px;
+          "
+          id="leetcode"
+        >
+          leetcode
+        </button>
+      </a>
+    </div>
+    <h1 style="margin-left: 20px;">Bulb</h1>
+
+    <div class="bulb bulbcontainer" id="bulb"></div>
+
+  </body>
+  <script src="bulb_dom_manipulation.js"></script>
+</html>

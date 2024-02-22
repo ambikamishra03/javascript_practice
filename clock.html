@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+     <div style="width:320px;height: 250px;border-radius: 10%;
+      background-color: aquamarine; color: black; align-items: center;justify-content: center;
+       margin: auto;">
+       <h1 style="padding: 60px;">Digital clock</h1>
+       <div  id="timer" style="padding: 10px;"></div>
+       </div>
+   <script>
+    let timer = document.getElementById('timer')
+    setInterval(() => {
+    let d=new Date();
+    // document.write(d)
+    timer.innerHTML = d
+    console.log(d)
+}, 1000);
+   </script>
+</body>
+
+</html>
